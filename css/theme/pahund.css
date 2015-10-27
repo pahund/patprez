@@ -227,6 +227,10 @@ body {
     margin-right: 0.5rem;
 }
 
+.reveal .margin-top {
+    margin-top: 3rem;
+}
+
 
 /*********************************************
  * LINKS
