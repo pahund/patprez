@@ -215,6 +215,13 @@ body {
     margin: 0;
 }
 
+.reveal .no-margin-bottom {
+    margin-bottom: 0;
+}
+.reveal .no-margin-top {
+    margin-top: 0;
+}
+
 .reveal .pull-up {
     margin-top: -1rem;
 }
@@ -229,6 +236,14 @@ body {
 
 .reveal .margin-top {
     margin-top: 3rem;
+}
+
+.reveal .red {
+    color: darkred;
+}
+
+.reveal .green {
+    color: darkgreen;
 }
 
 
