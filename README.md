@@ -1,5 +1,11 @@
 # 29th #ebaytechtalk: Relaunching mobile.de with Node.js and ES6
 
+## How Do I Run the Presentation?
+
+For instruction on how to install and run the presentation, refer to the [reveal.js documentation](https://github.com/hakimel/reveal.js#installation).
+
+## What Is It About?
+
 _Wednesday, 28 October 2015, [mobilesuite Berlin](http://www2.mobilesuite.de/)_
 
 At the 29th #ebaytechtalk, we’ll talk about lessons learned from relaunching mobile.de’s home page (10M visitors per month) – 100% JavaScript replacing a Java webapp.
@@ -18,13 +24,9 @@ Follow Patrick on Twitter: [@wiekatz](https://twitter.com/wiekatz)
 
 Our Tech team members enjoy a diverse and challenging environment that places high value on innovation, self-organization, team coherence and democratic decision-making. Our culture is based on open and honest communication and supporting each other in everything we do. 
 
-Curious? If so, please have a look at our career site or send your CV to our Talent Acquisition Partner Svetlana Heit ([sheit@ebay.com](mailto:sheit@ebay.com))
+Curious? If so, please have a look at our [career site](http://j.rfer.us/EBRHyJmsc) or send your CV to our Talent Acquisition Partner Svetlana Heit ([sheit@ebay.com](mailto:sheit@ebay.com))
 
 If we have open roles which match your profile, she will immediately contact you. We look forward to your application!
-
-## How Do I Run the Presentation?
-
-For instruction on how to install and run the presentation, refer to the [reveal.js documentation](https://github.com/hakimel/reveal.js#installation).
 
 ## License
 
