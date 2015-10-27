@@ -1,18 +1,12 @@
-# Patrick's Presentations
+# 29th #ebaytechtalk: Relaunching mobile.de with Node.js and ES6
 
-Presentations by [Patrick Hund](https://github.com/pahund/) for [mobile.de GmbH](https://github.com/mobile-de) from various conferences and meetups.
-
-Based on the [reveal.js](https://github.com/hakimel/reveal.js) presentation framework by [Hakim El Hattab](http://hakim.se/).
-
-## 29th #ebaytechtalk: Relaunching mobile.de with Node.js and ES6
-
-### Wednesday, 28 October 2015, [mobilesuite Berlin](http://www2.mobilesuite.de/)
+_Wednesday, 28 October 2015, [mobilesuite Berlin](http://www2.mobilesuite.de/)_
 
 At the 29th #ebaytechtalk, we’ll talk about lessons learned from relaunching mobile.de’s home page (10M visitors per month) – 100% JavaScript replacing a Java webapp.
 
 As always we will have some free food and drinks afterwards.
 
-### About the Speaker
+## About the Speaker
 
 Patrick Hund, software engineer, full stack developer and JavaScript aficionado. 
 
@@ -20,7 +14,7 @@ He and his team created a Node.js web app from scratch within 9 weeks. They used
 
 Follow Patrick on Twitter: [@wiekatz](https://twitter.com/wiekatz)
 
-### Are you looking for a new challenge?
+## Are you looking for a new challenge?
 
 Our Tech team members enjoy a diverse and challenging environment that places high value on innovation, self-organization, team coherence and democratic decision-making. Our culture is based on open and honest communication and supporting each other in everything we do. 
 
