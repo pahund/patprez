@@ -211,7 +211,6 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-    /*text-decoration: none;*/
     color: black;
     -webkit-transition: color 0.15s ease;
     -moz-transition: color 0.15s ease;
@@ -245,7 +244,18 @@ body {
 .reveal a:hover img {
     background: rgba(255, 255, 255, 0.2);
     border-color: #268bd2;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+
+.reveal img.big {
+    margin-top: -1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+
+.reveal a:hover img.big {
+    background: none;
+    border: none;
+}
 
 /*********************************************
  * NAVIGATION CONTROLS
