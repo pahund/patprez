@@ -249,6 +249,11 @@ export default {
                     <img class="box-shadow" style="width: 64rem" src="images/cross-stitch-npm-modules_700x326.png">
                 </section>
 
+                <!-- kraken -->
+                <section>
+                    <img src="images/kraken.svg" style="height: 40rem">
+                </section>
+
                 <!-- lessons learned: pairing -->
                 <section>
                     <img class="box-shadow" style="width: 64rem" src="images/cross-stitch-pairing_700x285.png">
@@ -262,6 +267,34 @@ export default {
                 <!-- lessons learned: simple -->
                 <section>
                     <img class="box-shadow" style="width: 64rem" src="images/cross-stitch-simple_700x341.png">
+                </section>
+
+                <!-- not so simple code -->
+                <section>
+                    <pre class="no-margin-top"><code class="hljs" data-trim contenteditable>
+/**
+ * withArgs.js
+ *
+ * Curries a function with additional arguments, which are prepended
+ * to the arguments passed to the function.
+ *
+ * Example:
+ *
+ * function foo(a, b, c, d) {
+ *     console.log(a + b + c + d);
+ * }
+ *
+ * let bar = withArgs(1, 2)(foo);
+ *
+ * bar(3, 4); // => 10
+ *
+ * [ 3, 4 ].forEach(bar); // => 6; => 7
+ *
+ */
+
+export default (...args1) => func => (...args2) => func(...args1, ...args2);
+                    </code></pre>
+
                 </section>
 
                 <!-- end -->
