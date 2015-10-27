@@ -208,6 +208,27 @@ body {
     vertical-align: top; }
 
 /*********************************************
+ * HELPERS
+ *********************************************/
+
+.reveal .no-margin {
+    margin: 0;
+}
+
+.reveal .pull-up {
+    margin-top: -1rem;
+}
+
+.reveal .box-shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+
+.reveal .margin-right {
+    margin-right: 0.5rem;
+}
+
+
+/*********************************************
  * LINKS
  *********************************************/
 .reveal a {
@@ -247,12 +268,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
-.reveal img.big {
-    margin-top: -1rem;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-}
-
-.reveal a:hover img.big {
+.reveal a:hover img.box-shadow {
     background: none;
     border: none;
 }
