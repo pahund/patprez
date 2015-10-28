@@ -140,10 +140,10 @@ export default () =>
     withTimeout(axios.get(config.serviceUrl), config.timeout);
                         </code></pre>
                     </section>
-                    <!-- unit test code -->
+                    <!-- unit test code 1 -->
                     <section>
                         <p class="no-margin-bottom"><small>service-test.js (excerpt)</small></p>
-                        <pre class="no-margin-top"><code class="hljs" data-trim contenteditable>
+                        <pre class="no-margin-top"><code class="medium hljs" data-trim contenteditable>
 describe("When I call the service", () => {
     describe("and the service returns data in time", () => {
         before(setup);
@@ -165,10 +165,10 @@ describe("When I call the service", () => {
                         </code></pre>
                     </section>
 
-                    <!-- unit test code -->
+                    <!-- unit test code 2 -->
                     <section>
                         <p class="no-margin-bottom"><small>service-test.js (excerpt)</small></p>
-                        <pre class="no-margin-top"><code class="hljs" data-trim contenteditable>
+                        <pre class="no-margin-top"><code class="medium hljs" data-trim contenteditable>
 function setupTimeout(done) {
     sinon.stub(axios, "get").returns(new Promise(resolve =>
         setTimeout(() => {
@@ -281,7 +281,7 @@ export default {
 
                 <!-- not so simple code -->
                 <section>
-                    <pre class="no-margin-top"><code class="hljs" data-trim contenteditable>
+                    <pre class="no-margin-top"><code class="small hljs" data-trim contenteditable>
 /**
  * withArgs.js
  *

@@ -157,7 +157,13 @@ body {
     word-wrap: break-word;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
-.reveal code {
+.reveal code.medium {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.reveal code.small {
     font-family: monospace;
     font-size: 0.9rem;
     line-height: 1.2rem;
