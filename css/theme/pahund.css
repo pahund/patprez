@@ -220,6 +220,10 @@ body {
  * HELPERS
  *********************************************/
 
+.reveal .white {
+    color: white;
+}
+
 .reveal .no-margin {
     margin: 0;
 }
