@@ -159,8 +159,8 @@ body {
 
 .reveal code {
     font-family: monospace;
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
 }
 
 .reveal pre code {
@@ -273,26 +273,6 @@ body {
  *********************************************/
 .reveal section img {
     margin: 15px 0px;
-}
-
-.reveal section img.plain {
-    border: 0;
-    box-shadow: none; }
-
-.reveal a img {
-    -webkit-transition: all 0.15s linear;
-    -moz-transition: all 0.15s linear;
-    transition: all 0.15s linear; }
-
-.reveal a:hover img {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: #268bd2;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-}
-
-.reveal a:hover img.box-shadow {
-    background: none;
-    border: none;
 }
 
 /*********************************************
