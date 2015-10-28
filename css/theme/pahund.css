@@ -157,16 +157,16 @@ body {
     word-wrap: break-word;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
-.reveal code.medium {
+.reveal pre.medium {
     font-family: monospace;
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-size: 0.5em;
+    line-height: 1.1em;
 }
 
-.reveal code.small {
+.reveal pre.small {
     font-family: monospace;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
+    font-size: 0.45em;
+    line-height: 1em;
 }
 
 .reveal pre code {
