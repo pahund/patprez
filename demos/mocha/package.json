@@ -1,0 +1,21 @@
+{
+  "name": "patprez-mocha-examples",
+  "version": "0.0.1",
+  "description": "Good and bad example for testable code",
+  "license": "WTFPL",
+  "author": "mobile.de GmbH",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-bad && npm run test-good",
+    "test-bad": "babel-node node_modules/mocha/bin/_mocha bad/service-test.js",
+    "test-good": "babel-node node_modules/mocha/bin/_mocha good/service-test.js"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.16.1"
+  },
+  "dependencies": {
+    "axios": "~0.7.0"
+  }
+}
